@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:n1="http://schemas.android.com/apk/res/android"
+    n1:layout_width="fill_parent"
+    n1:layout_height="fill_parent"
+    n1:gravity="center"
+    n1:orientation="vertical">
+
+    <ImageView
+        n1:layout_width="120dp"
+        n1:layout_height="120dp"
+        n1:padding="8dp"
+        n1:scaleType="fitXY"
+        n1:src="@mipmap/ic_launcher" />
+
+    <TextView
+        n1:id="@+id/uppertext"
+        n1:layout_width="fill_parent"
+        n1:layout_height="wrap_content"
+        n1:gravity="center"
+        n1:lineSpacingExtra="5dp"
+        n1:padding="3dp"
+        n1:text="@string/rateUsText"
+        n1:textColor="#ff000000"
+        n1:textSize="20dp" />
+
+    <View
+        n1:layout_width="fill_parent"
+        n1:layout_height="1dp"
+        n1:layout_marginLeft="16dp"
+        n1:layout_marginRight="16dp"
+        n1:background="#69c6c5c5" />
+
+    <ImageView
+        n1:layout_width="wrap_content"
+        n1:layout_height="wrap_content"
+        n1:layout_gravity="center_horizontal"
+        n1:layout_marginTop="8dp"
+        n1:src="@drawable/ratestar" />
+
+    <View
+        n1:layout_width="fill_parent"
+        n1:layout_height="1dp"
+        n1:layout_marginLeft="16dp"
+        n1:layout_marginRight="16dp"
+        n1:background="#69c6c5c5" />
+
+    <LinearLayout
+        n1:layout_width="fill_parent"
+        n1:layout_height="60dp"
+        n1:orientation="horizontal"
+        n1:padding="8dp">
+
+        <Button
+            n1:id="@+id/btn_cancle"
+            n1:layout_width="0dp"
+            n1:layout_height="fill_parent"
+            n1:layout_weight="1.0"
+            n1:background="@drawable/round"
+            n1:text="@string/rateUsButtonText"
+            n1:textColor="#ff000000" />
+
+        <View
+            n1:layout_width="1dp"
+            n1:layout_height="fill_parent"
+            n1:layout_marginLeft="16dp"
+            n1:layout_marginRight="16dp"
+            n1:background="#69c6c5c5" />
+
+        <Button
+            n1:id="@+id/btn_rate_us"
+            n1:layout_width="0dp"
+            n1:layout_height="fill_parent"
+            n1:layout_weight="1.0"
+            n1:background="@drawable/round"
+            n1:text="@string/rateUs"
+            n1:textColor="@color/colorPrimaryDark"
+            n1:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

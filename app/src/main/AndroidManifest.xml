@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.whatstools">
+
+    <uses-permission android:name="android.permission.INTERNAL_SYSTEM_WINDOW" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACTION_MANAGE_OVERLAY_PERMISSION" />
+    <uses-permission android:name="android.permission.BIND_ACCESSIBILITY_SERVICE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="MANAGE_OVERLAY_PERMISSION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name="androidx.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+
+
+        <activity
+            android:name="com.whatstools.start.Welcome"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.whatstools.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />
+
+        <activity
+            android:name="com.whatstools.whatsWebScan.WebActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemess" />
+
+        <activity
+            android:name="com.whatstools.walkChat.WalkMainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="com.whatstools.shakeShortcut.ShakeMain"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.whatstools.cleaner.WACleanMainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="com.whatstools.directChat.ChatDirect"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.whatstools.gallery.ImageViewersGallery"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.whatstools.gallery.VideoPlayersGallery"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.whatstools.gallery.MainWhatsGalleryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.whatstools.statusSaver.StatusSaverMainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.whatstools.statusSaver.RecentStoriesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.whatstools.statusSaver.SavedStoriesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.whatstools.statusSaver.VideoPlayers"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.whatstools.statusSaver.ImageViewer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.whatstools.statusSaver.SavedVideoPlayer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.whatstools.statusSaver.VideoPlayer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.whatstools.statusSaver.SavedImageViewer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.whatstools.emojiText.Texttoemoji"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.whatstools.captionStatusShare.Captionitem"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.whatstools.captionStatusShare.Captionstatus"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.whatstools.textRepeater.MainTextRepeater"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.whatstools.fackChat.MainFackChat"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="com.whatstools.fackChat.ChatProfile"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="com.whatstools.fackChat.GroupProfile"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="com.whatstools.fackChat.UserChat"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="com.whatstools.fackChat.Wallpaper"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="com.whatstools.fackChat.EditMessageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="com.whatstools.fackChat.EditChatUserProfile"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="com.whatstools.fackChat.Calls"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="com.whatstools.asciiFaces.AsciiFacesMainActivity"
+            android:screenOrientation="portrait" />
+
+        <receiver
+            android:name="com.whatstools.shakeShortcut.ShakeReceiver"
+            android:permission="TODO">
+            <intent-filter>
+                <action android:name="shake.detector" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.whatstools.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <service
+            android:name="com.whatstools.shake_Detector.ShakeService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="com.whatstools.walkChat.BasicAccessibilityService"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/service_config" />
+        </service>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/AppID" />
+
+    </application>
+
+</manifest>

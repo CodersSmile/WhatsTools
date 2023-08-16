@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:background="#ff17a878"
+        android:padding="8dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/rate_top" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/rate_five" />
+
+    <TextView
+        android:id="@+id/uppertext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:lineSpacingExtra="5dp"
+        android:padding="3dp"
+        android:text="@string/rateUsPopup"
+        android:textColor="#ff117289"
+        android:textSize="16dp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#69c6c5c5" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <Button
+            android:id="@+id/btn_cancle"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="#ff17a878"
+            android:text="@string/rateUsCancel"
+            android:textColor="#ffffffff"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="#69c6c5c5" />
+
+        <Button
+            android:id="@+id/btn_rate_us"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="#ff17a878"
+            android:text="@string/rateUs"
+            android:textColor="#ffffffff"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

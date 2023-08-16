@@ -1,0 +1,93 @@
+<resources>
+
+    <!-- App Name -->
+    <string name="app_name">Whats Tools</string>
+
+
+    <!-- Other Text -->
+    <string name="walk">Walk &amp; Chat</string>
+    <string name="select_country">Select a county</string>
+    <string name="picture_description">Description</string>
+    <string name="picture_title">Title</string>
+    <string name="fastscroll__app_name">RecyclerViewFastScroll</string>
+    <string name="message_number_empty">Please enter number</string>
+    <string name="message_number_error">Number not registered correctly</string>
+    <string name="no_result_found">Results not found</string>
+    <string name="accessibility">We need access to this service to perform certain features in WhatsPunch App, please go ahead and enable the switch above to enjoy all the features properly.</string>
+    <string name="clearCatch">This Cleaner does not clear cache or something absurd to boost your WhatsApp, it goes deep inside and delete junk to make your WhatsApp smooth. NOTE: This process will delete all the Sent folders from your WhatsApp media but you are not going to lose any data during this process.</string>
+    <string name="rateUsText">How was Your expeirence with us?</string>
+    <string name="rateUsButtonText">never</string>
+    <string name="rateUs">rate us</string>
+    <string name="rateUsPopup">If you like our app, please slide up to review and rate us 5 star.Thanks!</string>
+    <string name="rateUsCancel">Cancel</string>
+    <string name="enterName">Enter Caller Name</string>
+    <string name="delete">DELETE</string>
+    <string name="save">SAVE</string>
+    <string name="readMessage">Read Message</string>
+    <string name="receive">Receive</string>
+    <string name="send">Send</string>
+    <string name="deliveryStatus">Delivery Status</string>
+    <string name="myFriend">My Friend</string>
+    <string name="my">Me</string>
+    <string name="author">Author</string>
+    <string name="details">Details</string>
+    <string name="message">Message</string>
+    <string name="editMessage">Edit Message</string>
+    <string name="editProfile">Edit Profile</string>
+    <string name="profile">Profile</string>
+    <string name="name">Name:-</string>
+    <string name="photo">Photo:-</string>
+    <string name="enterYourName">Enter your name</string>
+    <string name="seenStatus">Seen Status</string>
+    <string name="online">Online:-</string>
+    <string name="typing">Typing:-</string>
+    <string name="status">Status:-</string>
+    <string name="enterYourStatus">Enter your status</string>
+    <string name="getStart">Get Started</string>
+    <string name="tagLine">Swipe and Get New Feature in This App</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="defaults">DEFAULT</string>
+    <string name="today">TODAY</string>
+    <string name="userName">USER NAME</string>
+    <string name="typeMessage">Type a message </string>
+    <string name="chatText">Chat Text</string>
+    <string name="to">To</string>
+    <string name="emoji">Emoji</string>
+    <string name="transform">Transform</string>
+    <string name="copy">Copy</string>
+    <string name="clear">Clear</string>
+    <string name="share">Share</string>
+    <string name="repeatText">Repeat Text</string>
+    <string name="noOfRepeatText">Number of Repeat Text</string>
+    <string name="repeat">Repeat</string>
+    <string name="newLineOn">New Line On</string>
+    <string name="note">Note: Number of Repeater Text Limit 10000</string>
+    <string name="Copy">Copy</string>
+    <string name="whatsappCleaner">WhatsApp Cleaner</string>
+    <string name="cleanSuccess">Clean Successfully</string>
+    <string name="walkNChatInstruction">This feature will set the background layer of the camera in realtime with lesser opacity. Using this app you can see what is going on behind you while chatting with friends.</string>
+    <string name="openWhatsapp">Open WhatsApp</string>
+    <string name="shakeToOpenWhatsapp">Shake to Open WhatsApp</string>
+    <string name="shakeToOpenWhatsappEnable">Enable this feature to access WhatsApp by shaking your Phone anywhere, anytime!</string>
+    <string name="shakeInfo">This is just a simple feature allows you to access WhatsApp with a quick shortcut. Just shake your Phone to perform this shortcut. Please note it takes 3–4 second to work if you are using at the Home Screen!</string>
+    <string name="directChatInfo">This Application uses WhatsApp services to start a conversation with any number included.</string>
+    <string name="directChatInfoNote">Note: it Does not store the number</string>
+    <string name="enterMessage">Enter Message </string>
+    <string name="enterNumber">Enter Number</string>
+    <string name="sends">SEND</string>
+    <string name="newChat">New Chat</string>
+    <string name="voiceCall">VOICE CALL</string>
+    <string name="donaldTrump">Donald Trump</string>
+    <string name="callTime">00 : 30</string>
+
+
+    <!-- STARTAPP ID -->
+<!--    <string name="startappID">211663514</string>-->
+    <string name="startappID"></string>
+    <!-- STARTAPP ID -->
+
+    <!-- ADMOB SETUP IDS -->
+    <string name="AppID">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="interstitial_id">ca-app-pub-3940256099942544/1033173712</string>
+    <!-- ADMOB SETUP IDS -->
+</resources>
